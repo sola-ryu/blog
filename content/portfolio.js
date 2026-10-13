@@ -21,6 +21,7 @@ const items = [
     },
     alt: "The title card for Ren's Adventures, showing the name and main character sprite.",
     title: "Ren's Adventures",
+    sticker: "playdate",
     description:
       "A simple visual novel game template built for the Playdate handheld console. Includes a basic scene scripting system, conversion tools, and demo project.",
   },
@@ -32,6 +33,7 @@ const items = [
     },
     alt: "A screenshot of a test run in the Lime Testing Suite, with a list of tests being performed showing each test's status and comments on the result.",
     title: "Lime Testing Suite",
+    sticker: "lime-wedge",
     description:
       "A simple test case library and manual software testing suite, designed to make reproducable test flows easy and intuitive. Built on Laravel with Inertia.js, Vue, and Tailwind CSS.",
   },
@@ -43,6 +45,7 @@ const items = [
     },
     alt: "A screenshot of the Zippa knowledge base builder interface, with a navigation menu on the left and a list of knowledge bases in the main content area.",
     title: "Zippa",
+    sticker: "book-stack",
     description:
       "A startup I co-founded as a platform for publishing knowledge bases. I designed the branding and back-end UI, implemented marketing page designs, and built the applications.",
   },
@@ -54,6 +57,7 @@ const items = [
     },
     alt: "A screenshot of the Phproject landing page, showing some feature examples.",
     title: "Phproject",
+    sticker: "clipboard",
     description:
       "An open source project management suite I started early in my professional web development career. It's gathered a decent userbase, with contributors from all over the world, and is translated by the community into 12 languages.",
   },
@@ -65,6 +69,7 @@ const items = [
     },
     alt: "The blue StructHub logo with compass glyph.",
     title: "StructHub",
+    sticker: "compass",
     description:
       "A startup focused on providing a sophisticated publishing platform for instruction and assembly manuals. I lead the development and did all of the branding and UI design.",
   },
@@ -76,6 +81,7 @@ const items = [
     },
     alt: "A stylized ellipsis implying more content",
     title: "And more!",
+    sticker: "ellipsis",
     description:
       "Check out my GitHub profile for a lot of other projects I've worked on.",
   },

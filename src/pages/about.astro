@@ -32,10 +32,11 @@ import { SITE_TITLE } from "../consts"
       </div>
     </Header>
     <div class="mx-safe my-4 px-4 md:p-6 lg:px-12">
-      <main class="mx-auto max-w-3xl">
-        <section
-          class="paper-card corner-squircle relative mx-auto rounded-xl px-6 py-4 lg:-rotate-1 lg:rounded-3xl lg:px-8"
-        >
+      <main>
+        <div class="mx-auto max-w-3xl">
+          <section
+            class="paper-card corner-squircle relative mx-auto rounded-xl px-6 py-4 lg:-rotate-1 lg:rounded-3xl lg:px-8"
+          >
           <div
             class="tape -top-3 left-1/2 -translate-x-1/2 rotate-2"
             aria-hidden="true"
@@ -62,10 +63,12 @@ import { SITE_TITLE } from "../consts"
         </section>
 
         <hr />
+        </div>
 
-        <Unsplash />
+        <Unsplash class="mx-auto max-w-6xl" />
 
-        <hr />
+        <div class="mx-auto max-w-3xl">
+          <hr />
 
         <section
           class="paper-card corner-squircle relative mx-auto rounded-xl px-6 py-4 lg:mb-12 lg:rotate-1 lg:rounded-3xl lg:px-8"
@@ -130,8 +133,10 @@ import { SITE_TITLE } from "../consts"
         </section>
 
         <hr />
+        </div>
 
-        <div class="mb-4 flex items-center gap-3">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-4 flex items-center gap-3">
           <Sticker
             name="code-brackets"
             size={56}
@@ -144,6 +149,7 @@ import { SITE_TITLE } from "../consts"
           </h2>
         </div>
         <Portfolio class="paper-card rounded-3xl px-4 py-4 lg:mb-12 lg:py-6" />
+        </div>
       </main>
     </div>
     <Footer />
