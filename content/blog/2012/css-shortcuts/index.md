@@ -2,6 +2,7 @@
 layout: post
 title: CSS Shorthand
 date: 2012-07-24 00:47:38
+sticker: paintbrush
 ---
 
 Learning CSS shorthand can save time and keep your stylesheets cleaner and simpler.  There are several ways to write the same styles, some more efficient than others.  For example, padding can be declared for each side like this:

@@ -2,6 +2,7 @@
 layout: post
 title: Sublime Text Plugins
 date: 2014-05-06 18:45:37
+sticker: code-brackets
 description: Here's my collection of Sublime Text packages and configuration files that I couldn't make it through a day without.
 ---
 

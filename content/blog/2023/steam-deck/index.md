@@ -1,6 +1,7 @@
 ---
 title: Steam Deck is Neat
 date: 2023-04-23T22:42:11
+sticker: game-controller
 description: I've used the Deck deeply and heavily now, and it's really awesome.
 ---
 

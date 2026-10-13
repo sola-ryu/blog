@@ -2,6 +2,7 @@
 layout: post
 title: Splatoon 2
 date: 2017-03-25 16:57:00
+sticker: game-controller
 description: Nintendo is running an open beta for Splatoon 2 today on the Nintendo Switch. It's pretty fun!
 ---
 

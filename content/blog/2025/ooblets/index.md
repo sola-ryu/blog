@@ -1,6 +1,7 @@
 ---
 title: Ooblets
 date: 2025-02-17T12:15:00
+sticker: ditto-blob
 description: This blog's design is even more Ooblets than before!
 ---
 

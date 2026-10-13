@@ -2,6 +2,7 @@
 layout: post
 title: Arch Setup
 date: 2016-02-11 10:11:00
+sticker: penguin
 ---
 
 I've always loved the concept of Arch Linux, with it's nothing-by-default setup and intentional lack of user-friendly tools, but I've run into issues with the installation that've prevented me from really using it enough to get familiar with it.

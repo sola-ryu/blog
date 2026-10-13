@@ -1,6 +1,7 @@
 ---
 title: I don't understand Windows
 date: 2021-06-26T05:41:56.238Z
+sticker: cracked-window
 description: It seems like the Windows team hasn't had a clear direction since Windows 7.
 ---
 

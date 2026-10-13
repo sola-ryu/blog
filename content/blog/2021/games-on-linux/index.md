@@ -2,6 +2,7 @@
 layout: post
 title: Games on Linux
 date: 2021-07-21T04:30:23Z
+sticker: penguin
 ---
 
 It's been a while since I've tried to play games on Linux, I ended up back on Windows as my only gaming PC a few years ago particularly because of Oculus's lack of Linux support for VR. With Windows 11 doing some... interesting things, I think it's time I try it again.

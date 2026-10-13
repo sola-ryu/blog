@@ -2,6 +2,7 @@
 layout: post
 title: Servers... and a new PC
 date: 2013-05-29 00:10:38
+sticker: cube-pc
 tags: alienlayer cubik-network digitalocean freenet server
 ---
 

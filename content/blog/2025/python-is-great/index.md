@@ -1,6 +1,7 @@
 ---
 title: Python is Great
 date: 2025-02-21T13:45:00
+sticker: code-brackets
 description: Python is my favorite language at this point. It's so incredibly powerful and easy to work with.
 ---
 

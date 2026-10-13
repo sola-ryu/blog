@@ -2,6 +2,7 @@
 layout: post
 title: Arch on UEFI
 date: 2016-07-19 11:46:00
+sticker: penguin
 ---
 
 UEFI boot is weird, mostly because of backwards compatibility. Here's a simple guide to setting up UEFI on GPT, assuming you already know how to do a [typical Arch install](/2016/02/11/arch-setup/).

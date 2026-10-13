@@ -1,6 +1,7 @@
 ---
 title: It's purple now.
 date: 2021-06-22T06:02:29.347Z
+sticker: paintbrush
 description: I like colors and now this blog has some more colors. It will have more later.
 ---
 

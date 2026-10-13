@@ -24,6 +24,7 @@ const blog = defineCollection({
       title: z.string(),
       description: z.string().optional(),
       date: z.coerce.date(),
+      sticker: z.string().optional(),
     }),
 })
 

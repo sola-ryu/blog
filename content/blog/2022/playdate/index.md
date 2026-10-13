@@ -1,6 +1,7 @@
 ---
 title: Playdate
 date: 2022-04-25T17:33:15
+sticker: game-controller
 description: I finally got my Playdate! Let's talk about the interesting games and excellent SDK!
 ---
 

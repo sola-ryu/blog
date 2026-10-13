@@ -2,6 +2,7 @@
 layout: post
 title: Beat Saber
 date: 2021-12-01 18:18:32
+sticker: vr-headset
 ---
 
 I've played.... a lot of Beat Saber. If it was a typical video game I'd consider it about at the limit of what I should reasonably play, especially considering it hasn't been around as long as Skyrim, Terraria, Minecraft, Half-Life, etc. but I've spent about as much time in it.

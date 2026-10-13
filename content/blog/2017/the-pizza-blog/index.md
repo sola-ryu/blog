@@ -2,6 +2,7 @@
 layout: post
 title: The Pizza Blog
 date: 2017-02-12 16:31:00
+sticker: pizza-slice
 ---
 
 Between regularly ordering take out pizza, baking frozen pizzas several nights a week, and often going to sit-down pizza restaurants, I eat quite a lot of pizza.

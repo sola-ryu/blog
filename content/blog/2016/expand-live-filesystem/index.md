@@ -2,6 +2,7 @@
 layout: post
 title: Expand a live ext4 filesystem
 date: 2016-09-14 15:36:00
+sticker: hard-drive
 ---
 
 So maybe you let your OS installer configure your partitions for you because you're lazy like me. And maybe you realized it created a 16 GB swap partition on your tiny SSD. And maybe you wanted `/` to use that 16 GB.

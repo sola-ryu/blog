@@ -2,6 +2,7 @@
 layout: post
 title: MySQL SSL on Ubuntu 12.04
 date: 2015-08-21 14:06:11
+sticker: database
 ---
 
 Ubuntu 12.04's included libssl is incompatible with the default mysql version provided. This isn't how to fix that, but a warning not to try. Just use 14.04 LTS.

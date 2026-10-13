@@ -1,6 +1,7 @@
 ---
 title: Niche Phones
 date: 2026-01-19T18:30:00
+sticker: flip-phone
 description: Phones are cool.
 ---
 

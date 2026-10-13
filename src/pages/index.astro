@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro"
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
+import Sticker from "../components/stickers/Sticker.astro"
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts"
 import { getCollection, render } from "astro:content"
 import FormattedDate from "../components/FormattedDate.astro"
@@ -18,9 +19,10 @@ const posts = (await getCollection("blog"))
   </head>
   <body>
     <Header>
-      <div class="font-display mt-6 pt-4 sm:py-8 md:py-12 lg:mt-8">
+      <div class="mt-6 flex items-center gap-4 pt-4 sm:py-8 md:py-12 lg:mt-8">
+        <Sticker name="pizza-slice" size={72} label="Pizza slice sticker" />
         <h1
-          class="text-shadow-title text-4xl font-bold text-indigo-500 md:text-5xl dark:text-indigo-400"
+          class="font-display doodle-underline inline-block text-4xl font-bold text-[#3d3129] md:text-5xl dark:text-[#efe4cf]"
         >
           My Blog
         </h1>
@@ -32,18 +34,34 @@ const posts = (await getCollection("blog"))
           posts.map(async post => {
             const { Content } = await render(post)
             return (
-              <article class="mb-8 flex flex-col sm:mb-16 md:mb-24">
-                <header class="font-display cosmic-panel -mx-4 px-6 py-4 text-white sm:mx-0 sm:mb-6 sm:self-start sm:rounded-xl lg:mb-8 lg:rounded-3xl lg:px-8">
-                  <h3 class="text-3xl leading-10 sm:text-4xl sm:leading-none">
-                    <a style={{ boxShadow: `none` }} href={`/${post.id}/`}>
+              <article class="paper-card relative mb-10 flex flex-col rounded-sm px-6 py-6 sm:mb-14 md:mb-20 lg:px-10 lg:py-8">
+                <div
+                  class="tape -top-3 left-1/2 -translate-x-1/2 -rotate-2"
+                  aria-hidden="true"
+                />
+                {post.data.sticker && (
+                  <div class="absolute -top-10 -right-3 sm:-right-6">
+                    <Sticker
+                      name={post.data.sticker}
+                      size={104}
+                      label={`${post.data.sticker} sticker`}
+                    />
+                  </div>
+                )}
+                <header class="font-display mb-4 lg:mb-6">
+                  <h3 class="text-3xl leading-10 font-bold text-[#3d3129] sm:text-4xl sm:leading-none dark:text-[#efe4cf]">
+                    <a
+                      class="decoration-wavy decoration-amber-500/70 hover:underline"
+                      href={`/${post.id}/`}
+                    >
                       {post.data.title}
                     </a>
                   </h3>
-                  <div class="text-lg text-indigo-400 md:mt-1">
+                  <div class="font-handwritten mt-1 text-lg text-[#8a6f4d] dark:text-[#b8a88e]">
                     <FormattedDate date={post.data.date} />
                   </div>
                 </header>
-                <section class="prose-all prose-indigo shadow-layered-light dark:shadow-layered-dark -mx-4 bg-white px-6 py-4 sm:mx-0 sm:rounded-xl lg:rounded-3xl lg:px-8 dark:bg-mauve-800">
+                <section class="prose-all">
                   <Content />
                 </section>
               </article>
@@ -53,7 +71,7 @@ const posts = (await getCollection("blog"))
 
         <div class="md:mb-24">
           <a
-            class="bg-gradient-starlight md:text-md rounded-full px-5 py-2 font-bold text-white hover:brightness-110 md:px-6 md:py-3"
+            class="shadow-solid inline-block rounded-full bg-[#b3402a] px-5 py-2 font-bold text-[#fffdf6] shadow-[#7c2d12] hover:brightness-110 md:px-6 md:py-3 md:text-lg"
             href="/archive"
           >
             See more posts →

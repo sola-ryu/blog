@@ -1,28 +1,22 @@
 ---
 import HeaderLink from "./HeaderLink.astro"
+import Sticker from "./stickers/Sticker.astro"
 import { SITE_TITLE } from "../consts"
 ---
 
-<div class="starlight fixed inset-0"></div>
-<div class="bg-gradient-gf sticky top-0 z-20 h-0.5 w-full"></div>
-
 <header
-  class="relative bg-linear-to-b from-mauve-700 p-4 md:p-6 lg:px-12 lg:py-8 dark:from-mauve-900"
+  class="relative border-b-2 border-dashed border-[#d8c9a8] bg-[#fffdf6]/90 backdrop-blur-sm dark:border-[#4a3f30] dark:bg-[#2c251d]/90"
 >
-  <div class="px-safe relative z-10 mx-auto max-w-7xl">
+  <div class="px-safe relative z-10 mx-auto max-w-7xl p-4 md:p-6 lg:px-12">
     <nav
-      class="flex flex-col items-stretch gap-4 text-indigo-100 sm:flex-row md:gap-6 dark:text-indigo-200"
+      class="flex flex-col items-stretch gap-4 text-[#5a4a3c] sm:flex-row dark:text-[#d8cbb4]"
     >
       <div class="flex flex-1 items-center gap-2">
         <a
           href="/"
-          class="font-display mr-2 flex items-center gap-3 rounded-xs text-3xl font-bold transition duration-150 ease-in-out focus:outline-hidden focus-visible:ring-3 focus-visible:ring-rose-300 sm:mr-6 lg:gap-4 dark:focus-visible:ring-rose-500"
+          class="font-display mr-2 flex items-center gap-1 rounded-xs text-3xl font-bold transition duration-150 ease-in-out focus:outline-hidden focus-visible:ring-3 focus-visible:ring-amber-400 sm:mr-6 lg:gap-2"
         >
-          <img
-            src="/oobavi3.svg"
-            class="h-12 w-12 rounded-full bg-indigo-500 shadow-sm dark:bg-indigo-400"
-            alt={`Cartoon render based on my Ooblets character.`}
-          />
+          <Sticker name="pizza-slice" size={52} label="Pizza slice sticker" />
           <span class="hidden sm:block">{SITE_TITLE}</span>
         </a>
         <HeaderLink href="/archive">Archive</HeaderLink>
@@ -39,22 +33,22 @@ import { SITE_TITLE } from "../consts"
             placeholder="Search posts"
             data-site-search
             autocomplete="off"
-            class="font-display w-full rounded-full border border-indigo-300/40 bg-indigo-100 px-4 py-2 text-sm leading-5 text-indigo-900 shadow-sm ring-indigo-300 transition focus:border-indigo-300 focus:ring-3 focus:outline-none dark:border-indigo-200/20 dark:bg-mauve-900 dark:text-indigo-200 dark:ring-indigo-700"
+            class="font-display w-full rounded-full border border-[#d8c9a8] bg-white/70 px-4 py-2 text-sm leading-5 text-[#3d3129] shadow-sm ring-amber-400 transition focus:border-amber-400 focus:ring-3 focus:outline-none dark:border-[#4a3f30] dark:bg-[#221c16] dark:text-[#e8ddcb] dark:ring-amber-600"
           />
         </form>
         <div
           hidden
           data-site-search-popover
-          class="absolute top-full right-0 left-0 z-30 mt-2 overflow-hidden rounded-2xl border border-indigo-300/30 bg-indigo-50 shadow-xl shadow-indigo-900/25 dark:border-indigo-200/20 dark:bg-mauve-900"
+          class="absolute top-full right-0 left-0 z-30 mt-2 overflow-hidden rounded-2xl border border-[#d8c9a8] bg-[#fffdf6] shadow-xl shadow-[#46322b]/20 dark:border-[#4a3f30] dark:bg-[#2c251d]"
         >
           <p
             data-site-search-status
-            class="font-display border-b border-indigo-300/20 px-4 py-2 text-sm text-indigo-800 dark:text-indigo-200"
+            class="font-display border-b border-[#e7dcc4] px-4 py-2 text-sm text-[#5a4a3c] dark:border-[#4a3f30] dark:text-[#d8cbb4]"
           >
           </p>
           <ul
             data-site-search-results
-            class="max-h-96 divide-y divide-indigo-300/20 overflow-y-auto scroll-auto"
+            class="max-h-96 divide-y divide-[#e7dcc4] overflow-y-auto scroll-auto dark:divide-[#4a3f30]"
           >
           </ul>
         </div>

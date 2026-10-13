@@ -2,6 +2,7 @@
 layout: post
 title: Regular Expression Lookarounds
 date: 2014-05-13 04:12:09
+sticker: code-brackets
 ---
 
 Let's keep this simple.

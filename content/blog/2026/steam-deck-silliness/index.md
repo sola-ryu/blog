@@ -1,6 +1,7 @@
 ---
 title: Steam Deck Silliness
 date: 2026-04-04T17:00:00
+sticker: game-controller
 description: Pushing the Deck further than is reasonably useful.
 ---
 

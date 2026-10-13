@@ -1,6 +1,7 @@
 ---
 title: Steam Frame is complicated
 date: 2026-09-25T17:00:00
+sticker: vr-headset
 description: This year Valve released a lot of new hardware. I bought all of it.
 ---
 

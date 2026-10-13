@@ -2,6 +2,7 @@
 layout: post
 title: MySQL Backups
 date: 2016-10-18 13:35:00
+sticker: database
 description: Flexible backup methods with mysqldump, and crazy-fast multi-threaded backups using mydumper
 ---
 

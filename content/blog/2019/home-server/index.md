@@ -2,6 +2,7 @@
 layout: post
 title: Home Server Updates
 date: 2019-09-25 21:35:00
+sticker: cube-pc
 description: Continuing to upgrade my server, and planning for the future.
 ---
 

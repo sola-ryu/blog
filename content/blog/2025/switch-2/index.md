@@ -1,6 +1,7 @@
 ---
 title: Switch 2 🎮
 date: 2025-06-23T18:16:35
+sticker: game-controller
 description: Nintendo got me.
 ---
 

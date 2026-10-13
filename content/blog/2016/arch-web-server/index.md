@@ -2,6 +2,7 @@
 layout: post
 title: Arch Web Server
 date: 2016-03-04 08:37:00
+sticker: penguin
 ---
 
 When a [LAMP server](/2016/02/17/lamp-setup/) just isn't enough, you may as well go all-out with nginx, HHVM, and MariaDB on Arch Linux.

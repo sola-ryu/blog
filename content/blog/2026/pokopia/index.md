@@ -1,6 +1,7 @@
 ---
 title: Pokémon Pokopia
 date: 2026-03-16T18:30:00
+sticker: ditto-blob
 description: yay video gaems 💜:|
 ---
 

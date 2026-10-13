@@ -1,6 +1,7 @@
 ---
 title: GitHub Copilot
 date: 2021-07-08T18:39:46Z
+sticker: code-brackets
 description: Microsoft's acquisition of GitHub was going to change software development in many ways. This wasn't one I expected.
 ---
 

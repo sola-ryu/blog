@@ -2,6 +2,7 @@
 layout: post
 title: New Year, New Server
 date: 2018-01-09 21:40:00
+sticker: cube-pc
 description: After reaching 98% disk usage, it was definitely time to rebuild my home file server.
 ---
 

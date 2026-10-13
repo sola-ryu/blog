@@ -2,6 +2,7 @@
 layout: post
 title: Too Many Drives
 date: 2020-04-14 18:32:00
+sticker: hard-drive
 description: Following up on my last server update, I've got a new case and even more drives for some reason.
 ---
 

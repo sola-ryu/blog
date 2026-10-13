@@ -2,6 +2,7 @@
 layout: post
 title: Too Many Phones
 date: 2018-09-25 21:40:00
+sticker: flip-phone
 description: I've purchased five new smart phones this year. I should really stop.
 ---
 

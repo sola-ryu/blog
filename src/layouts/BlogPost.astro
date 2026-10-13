@@ -4,6 +4,7 @@ import BaseHead from "../components/BaseHead.astro"
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
 import FormattedDate from "../components/FormattedDate.astro"
+import Sticker from "../components/stickers/Sticker.astro"
 
 import ChevronsLeft from "../../content/assets/lucide/chevrons-left.svg"
 import ChevronsRight from "../../content/assets/lucide/chevrons-right.svg"
@@ -17,7 +18,7 @@ type Props = {
 const {
   prev,
   next,
-  data: { title, description, date },
+  data: { title, description, date, sticker },
 } = Astro.props
 ---
 
@@ -32,22 +33,31 @@ const {
     <div class="mx-safe my-4 px-4 md:p-6 lg:px-12">
       <main class="mx-auto max-w-7xl">
         <article>
-          <header class="font-display pb-8 sm:pb-12 lg:pb-20">
-            <h1
-              class="text-shadow-title mb-2 text-4xl font-bold text-indigo-500 md:mb-4 md:text-5xl dark:text-indigo-300"
-            >
-              {title}
-            </h1>
-            <div
-              class="shadow-solid inline-block rounded-xl bg-white px-3 text-lg font-bold text-indigo-600 shadow-indigo-800 md:mt-2 dark:bg-indigo-50"
-            >
-              <FormattedDate date={date} />
+          <header class="flex items-start gap-4 pb-8 sm:gap-6 sm:pb-12 lg:pb-16">
+            {sticker && (
+              <div class="mt-1 shrink-0">
+                <Sticker name={sticker} size={104} label={`${sticker} sticker`} />
+              </div>
+            )}
+            <div class="font-display">
+              <h1
+                class="doodle-underline mb-2 inline-block text-4xl font-bold text-[#3d3129] md:mb-4 md:text-5xl dark:text-[#efe4cf]"
+              >
+                {title}
+              </h1>
+              <div class="font-handwritten mt-1 text-lg text-[#8a6f4d] md:mt-2 dark:text-[#b8a88e]">
+                <FormattedDate date={date} />
+              </div>
             </div>
           </header>
-          <div
-            class="prose-all prose-indigo shadow-layered-light dark:shadow-layered-dark sm:corner-squircle -mx-4 bg-white px-6 py-4 sm:mx-0 sm:rounded-xl lg:rounded-3xl lg:px-8 dark:bg-mauve-800"
-          >
-            <slot />
+          <div class="paper-card relative rounded-sm px-6 py-6 lg:px-10 lg:py-8">
+            <div
+              class="tape -top-3 left-10 rotate-3"
+              aria-hidden="true"
+            />
+            <div class="prose-all">
+              <slot />
+            </div>
           </div>
         </article>
 
@@ -57,7 +67,7 @@ const {
               prev && (
                 <li class="mr-4 mb-4 sm:mb-0">
                   <a
-                    class="cosmic-panel flex items-center gap-2 rounded-full px-4 py-2 text-indigo-100 ring-indigo-600 hover:ring-3 focus:ring-3"
+                    class="paper-card flex items-center gap-2 rounded-full px-4 py-2 font-bold text-[#7c2d12] hover:brightness-95 dark:text-amber-200"
                     href={`/${prev.id}/`}
                     rel="prev"
                   >
@@ -71,7 +81,7 @@ const {
               next && (
                 <li class="ml-auto">
                   <a
-                    class="cosmic-panel flex items-center gap-2 rounded-full px-4 py-2 text-indigo-100 ring-indigo-600 hover:ring-3 focus:ring-3"
+                    class="paper-card flex items-center gap-2 rounded-full px-4 py-2 font-bold text-[#7c2d12] hover:brightness-95 dark:text-amber-200"
                     href={`/${next.id}/`}
                     rel="next"
                   >

@@ -1,6 +1,7 @@
 ---
 title: Tailwind 3 Redesign!
 date: 2021-12-29T04:51:13
+sticker: paintbrush
 description: Tailwind 3 is out, and it's great! Once again it gave me a great opportunity to do a redesign of the site. I like it!
 ---
 
