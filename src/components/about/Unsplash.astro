@@ -1,17 +1,32 @@
 ---
+import Sticker from "../stickers/Sticker.astro"
 import images from "../../../content/unsplash.json"
 const { ...props } = Astro.props
 ---
 
 <section {...props}>
+  <div class="mb-4 flex items-center gap-3">
+    <Sticker name="camera" size={56} label="Camera sticker" />
+    <h2
+      class="font-display doodle-underline text-2xl font-bold text-[#3d3129] md:text-3xl dark:text-[#efe4cf]"
+    >
+      I take photos
+    </h2>
+  </div>
   <div
-    class="prose-all prose-teal shadow-solid mb-6 max-w-none! rounded-xl bg-white px-4 py-px text-teal-900 shadow-teal-800 md:mb-8 dark:bg-teal-800 dark:text-teal-50 dark:shadow-teal-950"
+    class="paper-card corner-squircle relative mb-6 rounded-xl px-6 py-4 md:mb-8 lg:rounded-3xl"
   >
-    <p>
-      I enjoy taking photos. You can find some of them on{" "}
-      <a href="https://unsplash.com/@alanaktion">Unsplash</a>, here's a
-      selection!
-    </p>
+    <div
+      class="tape -top-3 right-10 rotate-2"
+      aria-hidden="true"
+    />
+    <div class="prose-all">
+      <p>
+        I enjoy taking photos. You can find some of them on{" "}
+        <a href="https://unsplash.com/@alanaktion">Unsplash</a>, here's a
+        selection!
+      </p>
+    </div>
   </div>
   <div class="grid w-full grid-cols-2 gap-2 lg:grid-cols-3 lg:gap-4 xl:gap-6">
     {

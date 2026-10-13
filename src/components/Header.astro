@@ -1,6 +1,5 @@
 ---
 import HeaderLink from "./HeaderLink.astro"
-import Sticker from "./stickers/Sticker.astro"
 import { SITE_TITLE } from "../consts"
 ---
 
@@ -16,7 +15,11 @@ import { SITE_TITLE } from "../consts"
           href="/"
           class="font-display mr-2 flex items-center gap-1 rounded-xs text-3xl font-bold transition duration-150 ease-in-out focus:outline-hidden focus-visible:ring-3 focus-visible:ring-amber-400 sm:mr-6 lg:gap-2"
         >
-          <Sticker name="pizza-slice" size={52} label="Pizza slice sticker" />
+          <img
+            src="/oobavi3.svg"
+            class="h-12 w-12 rounded-full bg-indigo-500 shadow-sm dark:bg-indigo-400"
+            alt={`Cartoon render based on my Ooblets character.`}
+          />
           <span class="hidden sm:block">{SITE_TITLE}</span>
         </a>
         <HeaderLink href="/archive">Archive</HeaderLink>
